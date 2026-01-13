@@ -1,150 +1,150 @@
 user,total_logins,failed_logins,off_hours_logins,failed_login_ratio,off_hours_ratio,anomaly_score,anomaly_flag,failed_logins,risk_score,severity,reason,mitre_technique
-user_063,282,94,140,0.3333333333333333,0.49645390070921985,1.0,True,94,85,HIGH,high failed login ratio (0.33); noticeable off-hours activity (0.50); ML anomaly flagged user (anomaly_score=1.00),"T1078: Valid Accounts, T1110: Brute Force"
-user_007,258,83,127,0.32170542635658916,0.49224806201550386,0.8232049314752263,True,83,85,HIGH,high failed login ratio (0.32); noticeable off-hours activity (0.49); ML anomaly flagged user (anomaly_score=0.82),"T1078: Valid Accounts, T1110: Brute Force"
-user_023,277,81,123,0.2924187725631769,0.44404332129963897,0.7581379786933701,True,81,65,MEDIUM,elevated failed login ratio (0.29); noticeable off-hours activity (0.44); ML anomaly flagged user (anomaly_score=0.76),"T1078: Valid Accounts, T1110: Brute Force"
-user_140,145,41,75,0.2827586206896552,0.5172413793103449,0.5805593047709996,True,41,65,MEDIUM,elevated failed login ratio (0.28); noticeable off-hours activity (0.52); ML anomaly flagged user (anomaly_score=0.58),"T1078: Valid Accounts, T1110: Brute Force"
-user_029,277,78,128,0.2815884476534296,0.4620938628158845,0.7108482389461513,True,78,65,MEDIUM,elevated failed login ratio (0.28); noticeable off-hours activity (0.46); ML anomaly flagged user (anomaly_score=0.71),"T1078: Valid Accounts, T1110: Brute Force"
-user_036,97,27,53,0.27835051546391754,0.5463917525773195,0.5739634626682504,True,27,65,MEDIUM,elevated failed login ratio (0.28); noticeable off-hours activity (0.55); ML anomaly flagged user (anomaly_score=0.57),"T1078: Valid Accounts, T1110: Brute Force"
-user_027,119,33,55,0.2773109243697479,0.46218487394957986,0.5697794551920823,True,33,65,MEDIUM,elevated failed login ratio (0.28); noticeable off-hours activity (0.46); ML anomaly flagged user (anomaly_score=0.57),"T1078: Valid Accounts, T1110: Brute Force"
-user_109,252,67,118,0.26587301587301587,0.46825396825396826,0.6817371509498256,True,67,65,MEDIUM,elevated failed login ratio (0.27); noticeable off-hours activity (0.47); ML anomaly flagged user (anomaly_score=0.68),"T1078: Valid Accounts, T1110: Brute Force"
-user_058,128,34,69,0.265625,0.5390625,0.5073121908077514,True,34,65,MEDIUM,elevated failed login ratio (0.27); noticeable off-hours activity (0.54); ML anomaly flagged user (anomaly_score=0.51),"T1078: Valid Accounts, T1110: Brute Force"
-user_071,256,66,135,0.2578125,0.52734375,0.7466583391203535,True,66,65,MEDIUM,elevated failed login ratio (0.26); noticeable off-hours activity (0.53); ML anomaly flagged user (anomaly_score=0.75),"T1078: Valid Accounts, T1110: Brute Force"
-user_096,99,21,60,0.21212121212121213,0.6060606060606061,0.4867781733295816,False,21,60,MEDIUM,elevated failed login ratio (0.21); heavy off-hours activity (0.61),"T1078: Valid Accounts, T1110: Brute Force"
-user_127,86,9,56,0.10465116279069768,0.6511627906976745,0.6010139672501652,True,9,50,MEDIUM,heavy off-hours activity (0.65); ML anomaly flagged user (anomaly_score=0.60),T1078: Valid Accounts
-user_002,111,27,58,0.24324324324324326,0.5225225225225225,0.3642100548454004,False,27,45,MEDIUM,elevated failed login ratio (0.24); noticeable off-hours activity (0.52),"T1078: Valid Accounts, T1110: Brute Force"
-user_116,121,29,61,0.2396694214876033,0.5041322314049587,0.3655284784033478,False,29,45,MEDIUM,elevated failed login ratio (0.24); noticeable off-hours activity (0.50),"T1078: Valid Accounts, T1110: Brute Force"
-user_142,107,23,49,0.21495327102803738,0.45794392523364486,0.39493138579248843,False,23,45,MEDIUM,elevated failed login ratio (0.21); noticeable off-hours activity (0.46),"T1078: Valid Accounts, T1110: Brute Force"
-user_025,147,29,69,0.19727891156462585,0.46938775510204084,0.3498026074577108,False,29,45,MEDIUM,elevated failed login ratio (0.20); noticeable off-hours activity (0.47),"T1078: Valid Accounts, T1110: Brute Force"
-user_107,183,35,93,0.1912568306010929,0.5081967213114754,0.364086257879522,False,35,45,MEDIUM,elevated failed login ratio (0.19); noticeable off-hours activity (0.51),"T1078: Valid Accounts, T1110: Brute Force"
-user_032,90,17,43,0.18888888888888888,0.4777777777777778,0.32171680552727083,False,17,45,MEDIUM,elevated failed login ratio (0.19); noticeable off-hours activity (0.48),"T1078: Valid Accounts, T1110: Brute Force"
-user_043,96,18,42,0.1875,0.4375,0.43399702583212135,False,18,45,MEDIUM,elevated failed login ratio (0.19); noticeable off-hours activity (0.44),"T1078: Valid Accounts, T1110: Brute Force"
-user_129,89,16,46,0.1797752808988764,0.5168539325842697,0.24747716342687082,False,16,45,MEDIUM,elevated failed login ratio (0.18); noticeable off-hours activity (0.52),"T1078: Valid Accounts, T1110: Brute Force"
-user_135,221,39,110,0.17647058823529413,0.497737556561086,0.33317527519421725,False,39,45,MEDIUM,elevated failed login ratio (0.18); noticeable off-hours activity (0.50),"T1078: Valid Accounts, T1110: Brute Force"
-user_132,128,22,75,0.171875,0.5859375,0.32495722308152575,False,22,45,MEDIUM,elevated failed login ratio (0.17); noticeable off-hours activity (0.59),"T1078: Valid Accounts, T1110: Brute Force"
-user_150,89,15,53,0.16853932584269662,0.5955056179775281,0.32802226339056445,False,15,45,MEDIUM,elevated failed login ratio (0.17); noticeable off-hours activity (0.60),"T1078: Valid Accounts, T1110: Brute Force"
-user_014,167,28,86,0.16766467065868262,0.5149700598802395,0.20092479867313862,False,28,45,MEDIUM,elevated failed login ratio (0.17); noticeable off-hours activity (0.51),"T1078: Valid Accounts, T1110: Brute Force"
-user_124,90,15,53,0.16666666666666666,0.5888888888888889,0.29233300632211917,False,15,45,MEDIUM,elevated failed login ratio (0.17); noticeable off-hours activity (0.59),"T1078: Valid Accounts, T1110: Brute Force"
-user_054,103,17,58,0.1650485436893204,0.5631067961165048,0.21422173762632699,False,17,45,MEDIUM,elevated failed login ratio (0.17); noticeable off-hours activity (0.56),"T1078: Valid Accounts, T1110: Brute Force"
-user_046,178,29,88,0.16292134831460675,0.4943820224719101,0.1639490953896386,False,29,45,MEDIUM,elevated failed login ratio (0.16); noticeable off-hours activity (0.49),"T1078: Valid Accounts, T1110: Brute Force"
-user_053,112,18,61,0.16071428571428573,0.5446428571428571,0.09644966358838777,False,18,45,MEDIUM,elevated failed login ratio (0.16); noticeable off-hours activity (0.54),"T1078: Valid Accounts, T1110: Brute Force"
-user_050,137,22,72,0.16058394160583941,0.5255474452554745,0.09401370842220323,False,22,45,MEDIUM,elevated failed login ratio (0.16); noticeable off-hours activity (0.53),"T1078: Valid Accounts, T1110: Brute Force"
-user_066,127,20,62,0.15748031496062992,0.4881889763779528,0.09143391539595741,False,20,45,MEDIUM,elevated failed login ratio (0.16); noticeable off-hours activity (0.49),"T1078: Valid Accounts, T1110: Brute Force"
-user_067,109,17,52,0.1559633027522936,0.47706422018348627,0.1377138349731737,False,17,45,MEDIUM,elevated failed login ratio (0.16); noticeable off-hours activity (0.48),"T1078: Valid Accounts, T1110: Brute Force"
-user_018,199,31,95,0.15577889447236182,0.47738693467336685,0.260990357126785,False,31,45,MEDIUM,elevated failed login ratio (0.16); noticeable off-hours activity (0.48),"T1078: Valid Accounts, T1110: Brute Force"
-user_145,244,37,130,0.15163934426229508,0.5327868852459017,0.26251132359981233,False,37,45,MEDIUM,elevated failed login ratio (0.15); noticeable off-hours activity (0.53),"T1078: Valid Accounts, T1110: Brute Force"
-user_038,225,34,111,0.1511111111111111,0.49333333333333335,0.1410398921400595,False,34,45,MEDIUM,elevated failed login ratio (0.15); noticeable off-hours activity (0.49),"T1078: Valid Accounts, T1110: Brute Force"
-user_035,265,30,153,0.11320754716981132,0.5773584905660377,0.5978169547942734,True,30,35,LOW,noticeable off-hours activity (0.58); ML anomaly flagged user (anomaly_score=0.60),T1078: Valid Accounts
-user_037,278,28,154,0.10071942446043165,0.5539568345323741,0.6132865274626735,True,28,35,LOW,noticeable off-hours activity (0.55); ML anomaly flagged user (anomaly_score=0.61),T1078: Valid Accounts
-user_077,70,6,33,0.08571428571428572,0.4714285714285714,0.607017822171238,True,6,35,LOW,noticeable off-hours activity (0.47); ML anomaly flagged user (anomaly_score=0.61),T1078: Valid Accounts
-user_088,80,4,43,0.05,0.5375,0.5635197950202672,True,4,35,LOW,noticeable off-hours activity (0.54); ML anomaly flagged user (anomaly_score=0.56),T1078: Valid Accounts
-user_136,117,16,71,0.13675213675213677,0.6068376068376068,0.32910252930247325,False,16,30,LOW,heavy off-hours activity (0.61),T1078: Valid Accounts
-user_080,229,34,131,0.14847161572052403,0.5720524017467249,0.3923576816933967,False,34,15,LOW,noticeable off-hours activity (0.57),T1078: Valid Accounts
-user_141,257,38,122,0.14785992217898833,0.47470817120622566,0.26329887825829584,False,38,15,LOW,noticeable off-hours activity (0.47),T1078: Valid Accounts
-user_087,110,16,56,0.14545454545454545,0.509090909090909,0.08099304215105567,False,16,15,LOW,noticeable off-hours activity (0.51),T1078: Valid Accounts
-user_128,138,20,76,0.14492753623188406,0.5507246376811594,0.15334204931098694,False,20,15,LOW,noticeable off-hours activity (0.55),T1078: Valid Accounts
-user_022,265,38,126,0.14339622641509434,0.47547169811320755,0.2786142849336351,False,38,15,LOW,noticeable off-hours activity (0.48),T1078: Valid Accounts
-user_061,71,10,38,0.14084507042253522,0.5352112676056338,0.41349397649336744,False,10,15,LOW,noticeable off-hours activity (0.54),T1078: Valid Accounts
-user_105,143,20,71,0.13986013986013987,0.4965034965034965,0.060100579330836776,False,20,15,LOW,noticeable off-hours activity (0.50),T1078: Valid Accounts
-user_095,80,11,46,0.1375,0.575,0.3172580269553811,False,11,15,LOW,noticeable off-hours activity (0.57),T1078: Valid Accounts
-user_115,96,13,40,0.13541666666666666,0.4166666666666667,0.45037535626815395,False,13,15,LOW,noticeable off-hours activity (0.42),T1078: Valid Accounts
-user_045,237,32,119,0.1350210970464135,0.5021097046413502,0.06550231540415713,False,32,15,LOW,noticeable off-hours activity (0.50),T1078: Valid Accounts
-user_039,141,19,68,0.1347517730496454,0.48226950354609927,0.0667333564963628,False,19,15,LOW,noticeable off-hours activity (0.48),T1078: Valid Accounts
-user_089,231,31,113,0.1341991341991342,0.48917748917748916,0.07425175914831023,False,31,15,LOW,noticeable off-hours activity (0.49),T1078: Valid Accounts
-user_073,210,28,112,0.13333333333333333,0.5333333333333333,0.10194323424823194,False,28,15,LOW,noticeable off-hours activity (0.53),T1078: Valid Accounts
-user_146,173,23,73,0.1329479768786127,0.42196531791907516,0.35048115962241416,False,23,15,LOW,noticeable off-hours activity (0.42),T1078: Valid Accounts
-user_009,256,34,113,0.1328125,0.44140625,0.29893411566430994,False,34,15,LOW,noticeable off-hours activity (0.44),T1078: Valid Accounts
-user_015,251,33,132,0.13147410358565736,0.5258964143426295,0.13273141483378512,False,33,15,LOW,noticeable off-hours activity (0.53),T1078: Valid Accounts
-user_004,236,31,106,0.13135593220338984,0.4491525423728814,0.23196024727404427,False,31,15,LOW,noticeable off-hours activity (0.45),T1078: Valid Accounts
-user_017,244,32,120,0.13114754098360656,0.4918032786885246,0.05740558429202537,False,32,15,LOW,noticeable off-hours activity (0.49),T1078: Valid Accounts
-user_013,237,31,121,0.1308016877637131,0.510548523206751,0.06607342080162765,False,31,15,LOW,noticeable off-hours activity (0.51),T1078: Valid Accounts
-user_098,115,15,55,0.13043478260869565,0.4782608695652174,0.08361270236144246,False,15,15,LOW,noticeable off-hours activity (0.48),T1078: Valid Accounts
-user_064,246,32,110,0.13008130081300814,0.44715447154471544,0.1820551084882574,False,32,15,LOW,noticeable off-hours activity (0.45),T1078: Valid Accounts
-user_051,108,14,60,0.12962962962962962,0.5555555555555556,0.09237031355487656,False,14,15,LOW,noticeable off-hours activity (0.56),T1078: Valid Accounts
-user_069,85,11,42,0.12941176470588237,0.49411764705882355,0.1935295650929538,False,11,15,LOW,noticeable off-hours activity (0.49),T1078: Valid Accounts
-user_019,171,22,93,0.1286549707602339,0.543859649122807,0.11360074499640614,False,22,15,LOW,noticeable off-hours activity (0.54),T1078: Valid Accounts
-user_016,210,27,112,0.12857142857142856,0.5333333333333333,0.09106787536506371,False,27,15,LOW,noticeable off-hours activity (0.53),T1078: Valid Accounts
-user_060,280,36,140,0.12857142857142856,0.5,0.3813976406920641,False,36,15,LOW,noticeable off-hours activity (0.50),T1078: Valid Accounts
-user_042,189,24,92,0.12698412698412698,0.48677248677248675,0.07088799372738357,False,24,15,LOW,noticeable off-hours activity (0.49),T1078: Valid Accounts
-user_055,150,19,77,0.12666666666666668,0.5133333333333333,0.03481244704862497,False,19,15,LOW,noticeable off-hours activity (0.51),T1078: Valid Accounts
-user_130,208,26,108,0.125,0.5192307692307693,0.08467369242397955,False,26,15,LOW,noticeable off-hours activity (0.52),T1078: Valid Accounts
-user_101,241,30,121,0.12448132780082988,0.5020746887966805,0.05731838037621127,False,30,15,LOW,noticeable off-hours activity (0.50),T1078: Valid Accounts
-user_126,145,18,67,0.12413793103448276,0.46206896551724136,0.09011878761440688,False,18,15,LOW,noticeable off-hours activity (0.46),T1078: Valid Accounts
-user_052,138,17,63,0.12318840579710146,0.45652173913043476,0.08856323222960144,False,17,15,LOW,noticeable off-hours activity (0.46),T1078: Valid Accounts
-user_147,188,23,99,0.12234042553191489,0.526595744680851,0.07555070042838827,False,23,15,LOW,noticeable off-hours activity (0.53),T1078: Valid Accounts
-user_104,254,31,138,0.1220472440944882,0.5433070866141733,0.2176337151936902,False,31,15,LOW,noticeable off-hours activity (0.54),T1078: Valid Accounts
-user_034,82,10,36,0.12195121951219512,0.43902439024390244,0.35767572841879863,False,10,15,LOW,noticeable off-hours activity (0.44),T1078: Valid Accounts
-user_120,216,26,109,0.12037037037037036,0.5046296296296297,0.0647067281980209,False,26,15,LOW,noticeable off-hours activity (0.50),T1078: Valid Accounts
-user_125,125,15,65,0.12,0.52,0.021031010716009796,False,15,15,LOW,noticeable off-hours activity (0.52),T1078: Valid Accounts
-user_090,277,33,135,0.11913357400722022,0.48736462093862815,0.28766302753872486,False,33,15,LOW,noticeable off-hours activity (0.49),T1078: Valid Accounts
-user_005,185,22,93,0.11891891891891893,0.5027027027027027,0.000976272160074876,False,22,15,LOW,noticeable off-hours activity (0.50),T1078: Valid Accounts
-user_102,186,22,92,0.11827956989247312,0.4946236559139785,0.0,False,22,15,LOW,noticeable off-hours activity (0.49),T1078: Valid Accounts
-user_078,110,13,58,0.11818181818181818,0.5272727272727272,0.03640802266893106,False,13,15,LOW,noticeable off-hours activity (0.53),T1078: Valid Accounts
-user_131,188,22,89,0.11702127659574468,0.4734042553191489,0.054761127239464795,False,22,15,LOW,noticeable off-hours activity (0.47),T1078: Valid Accounts
-user_148,277,32,125,0.11552346570397112,0.45126353790613716,0.2880919715463922,False,32,15,LOW,noticeable off-hours activity (0.45),T1078: Valid Accounts
-user_100,104,12,55,0.11538461538461539,0.5288461538461539,0.05149891659480627,False,12,15,LOW,noticeable off-hours activity (0.53),T1078: Valid Accounts
-user_091,167,19,88,0.11377245508982035,0.5269461077844312,0.08500268375464251,False,19,15,LOW,noticeable off-hours activity (0.53),T1078: Valid Accounts
-user_057,186,21,91,0.11290322580645161,0.489247311827957,0.0187455569870675,False,21,15,LOW,noticeable off-hours activity (0.49),T1078: Valid Accounts
-user_070,197,22,113,0.1116751269035533,0.5736040609137056,0.2527304702585689,False,22,15,LOW,noticeable off-hours activity (0.57),T1078: Valid Accounts
-user_010,72,8,40,0.1111111111111111,0.5555555555555556,0.3989480019480489,False,8,15,LOW,noticeable off-hours activity (0.56),T1078: Valid Accounts
-user_040,90,10,47,0.1111111111111111,0.5222222222222223,0.12127556367031313,False,10,15,LOW,noticeable off-hours activity (0.52),T1078: Valid Accounts
-user_030,82,9,37,0.10975609756097561,0.45121951219512196,0.2995140002113558,False,9,15,LOW,noticeable off-hours activity (0.45),T1078: Valid Accounts
-user_118,247,27,121,0.10931174089068826,0.4898785425101215,0.047395830464276215,False,27,15,LOW,noticeable off-hours activity (0.49),T1078: Valid Accounts
-user_110,165,18,78,0.10909090909090909,0.4727272727272727,0.06336469294977352,False,18,15,LOW,noticeable off-hours activity (0.47),T1078: Valid Accounts
-user_079,92,10,46,0.10869565217391304,0.5,0.12969496551616205,False,10,15,LOW,noticeable off-hours activity (0.50),T1078: Valid Accounts
-user_059,242,26,132,0.10743801652892562,0.5454545454545454,0.16599090482234075,False,26,15,LOW,noticeable off-hours activity (0.55),T1078: Valid Accounts
-user_011,178,19,94,0.10674157303370786,0.5280898876404494,0.04017501890542249,False,19,15,LOW,noticeable off-hours activity (0.53),T1078: Valid Accounts
-user_031,197,21,93,0.1065989847715736,0.4720812182741117,0.08960760674359447,False,21,15,LOW,noticeable off-hours activity (0.47),T1078: Valid Accounts
-user_012,188,20,91,0.10638297872340426,0.48404255319148937,0.03430372222973803,False,20,15,LOW,noticeable off-hours activity (0.48),T1078: Valid Accounts
-user_033,170,18,77,0.10588235294117647,0.45294117647058824,0.11947893518472133,False,18,15,LOW,noticeable off-hours activity (0.45),T1078: Valid Accounts
-user_097,201,21,93,0.1044776119402985,0.4626865671641791,0.1682334332966677,False,21,15,LOW,noticeable off-hours activity (0.46),T1078: Valid Accounts
-user_138,87,9,41,0.10344827586206896,0.47126436781609193,0.2220252868974984,False,9,15,LOW,noticeable off-hours activity (0.47),T1078: Valid Accounts
-user_075,126,13,63,0.10317460317460317,0.5,0.020939225615112092,False,13,15,LOW,noticeable off-hours activity (0.50),T1078: Valid Accounts
-user_114,263,27,140,0.10266159695817491,0.532319391634981,0.24116515201525912,False,27,15,LOW,noticeable off-hours activity (0.53),T1078: Valid Accounts
-user_083,197,20,110,0.10152284263959391,0.5583756345177665,0.16651726155865879,False,20,15,LOW,noticeable off-hours activity (0.56),T1078: Valid Accounts
-user_028,237,24,109,0.10126582278481013,0.459915611814346,0.15736321929924327,False,24,15,LOW,noticeable off-hours activity (0.46),T1078: Valid Accounts
-user_003,139,14,73,0.10071942446043165,0.5251798561151079,0.034027832237190435,False,14,15,LOW,noticeable off-hours activity (0.53),T1078: Valid Accounts
-user_117,211,21,116,0.0995260663507109,0.5497630331753555,0.15409958859541847,False,21,15,LOW,noticeable off-hours activity (0.55),T1078: Valid Accounts
-user_020,233,23,120,0.09871244635193133,0.5150214592274678,0.059047380175165705,False,23,15,LOW,noticeable off-hours activity (0.52),T1078: Valid Accounts
-user_085,193,19,107,0.09844559585492228,0.5544041450777202,0.10611299172513809,False,19,15,LOW,noticeable off-hours activity (0.55),T1078: Valid Accounts
-user_143,254,25,130,0.0984251968503937,0.5118110236220472,0.10703932739811098,False,25,15,LOW,noticeable off-hours activity (0.51),T1078: Valid Accounts
-user_111,266,26,123,0.09774436090225563,0.462406015037594,0.19566592696237142,False,26,15,LOW,noticeable off-hours activity (0.46),T1078: Valid Accounts
-user_072,103,10,56,0.0970873786407767,0.5436893203883495,0.07206519075337872,False,10,15,LOW,noticeable off-hours activity (0.54),T1078: Valid Accounts
-user_137,207,20,104,0.0966183574879227,0.5024154589371981,0.09239102320625556,False,20,15,LOW,noticeable off-hours activity (0.50),T1078: Valid Accounts
-user_122,228,22,114,0.09649122807017543,0.5,0.03448064372683297,False,22,15,LOW,noticeable off-hours activity (0.50),T1078: Valid Accounts
-user_084,275,26,125,0.09454545454545454,0.45454545454545453,0.25411208943160374,False,26,15,LOW,noticeable off-hours activity (0.45),T1078: Valid Accounts
-user_119,182,17,92,0.09340659340659341,0.5054945054945055,0.03483796322278781,False,17,15,LOW,noticeable off-hours activity (0.51),T1078: Valid Accounts
-user_047,118,11,63,0.09322033898305085,0.5338983050847458,0.05626448117718278,False,11,15,LOW,noticeable off-hours activity (0.53),T1078: Valid Accounts
-user_008,108,10,48,0.09259259259259259,0.4444444444444444,0.14862780319953325,False,10,15,LOW,noticeable off-hours activity (0.44),T1078: Valid Accounts
-user_049,227,21,119,0.09251101321585903,0.5242290748898678,0.08010252091181456,False,21,15,LOW,noticeable off-hours activity (0.52),T1078: Valid Accounts
-user_113,227,21,109,0.09251101321585903,0.4801762114537445,0.09478834426364993,False,21,15,LOW,noticeable off-hours activity (0.48),T1078: Valid Accounts
-user_006,195,18,108,0.09230769230769231,0.5538461538461539,0.143321054823194,False,18,15,LOW,noticeable off-hours activity (0.55),T1078: Valid Accounts
-user_144,178,16,89,0.0898876404494382,0.5,0.062414837537223995,False,16,15,LOW,noticeable off-hours activity (0.50),T1078: Valid Accounts
-user_001,78,7,38,0.08974358974358974,0.48717948717948717,0.36827544040157084,False,7,15,LOW,noticeable off-hours activity (0.49),T1078: Valid Accounts
-user_068,145,13,73,0.0896551724137931,0.503448275862069,0.03333694916790086,False,13,15,LOW,noticeable off-hours activity (0.50),T1078: Valid Accounts
-user_108,249,22,121,0.08835341365461848,0.4859437751004016,0.07286441529679133,False,22,15,LOW,noticeable off-hours activity (0.49),T1078: Valid Accounts
-user_024,272,24,140,0.08823529411764706,0.5147058823529411,0.3085271499430654,False,24,15,LOW,noticeable off-hours activity (0.51),T1078: Valid Accounts
-user_062,152,13,79,0.08552631578947369,0.5197368421052632,0.08650590087875448,False,13,15,LOW,noticeable off-hours activity (0.52),T1078: Valid Accounts
-user_121,234,20,110,0.08547008547008547,0.4700854700854701,0.14166235081738673,False,20,15,LOW,noticeable off-hours activity (0.47),T1078: Valid Accounts
-user_026,258,22,119,0.08527131782945736,0.46124031007751937,0.19781039611109755,False,22,15,LOW,noticeable off-hours activity (0.46),T1078: Valid Accounts
-user_093,230,19,117,0.08260869565217391,0.508695652173913,0.09961835360046685,False,19,15,LOW,noticeable off-hours activity (0.51),T1078: Valid Accounts
-user_106,109,9,60,0.08256880733944955,0.5504587155963303,0.1181388982391169,False,9,15,LOW,noticeable off-hours activity (0.55),T1078: Valid Accounts
-user_074,194,16,103,0.08247422680412371,0.5309278350515464,0.15462368277102684,False,16,15,LOW,noticeable off-hours activity (0.53),T1078: Valid Accounts
-user_086,245,20,122,0.08163265306122448,0.49795918367346936,0.06967559047691929,False,20,15,LOW,noticeable off-hours activity (0.50),T1078: Valid Accounts
-user_056,99,8,52,0.08080808080808081,0.5252525252525253,0.11724130441694063,False,8,15,LOW,noticeable off-hours activity (0.53),T1078: Valid Accounts
-user_112,248,20,122,0.08064516129032258,0.49193548387096775,0.0877372658785809,False,20,15,LOW,noticeable off-hours activity (0.49),T1078: Valid Accounts
-user_082,114,9,60,0.07894736842105263,0.5263157894736842,0.061134145964113935,False,9,15,LOW,noticeable off-hours activity (0.53),T1078: Valid Accounts
-user_048,129,10,52,0.07751937984496124,0.40310077519379844,0.3311518159829812,False,10,15,LOW,noticeable off-hours activity (0.40),T1078: Valid Accounts
-user_094,272,21,134,0.07720588235294118,0.49264705882352944,0.300777602369318,False,21,15,LOW,noticeable off-hours activity (0.49),T1078: Valid Accounts
-user_021,157,12,75,0.07643312101910828,0.47770700636942676,0.14282231670799367,False,12,15,LOW,noticeable off-hours activity (0.48),T1078: Valid Accounts
-user_044,105,8,52,0.0761904761904762,0.49523809523809526,0.12015824368742713,False,8,15,LOW,noticeable off-hours activity (0.50),T1078: Valid Accounts
-user_123,184,14,92,0.07608695652173914,0.5,0.16097112528100302,False,14,15,LOW,noticeable off-hours activity (0.50),T1078: Valid Accounts
-user_076,124,9,56,0.07258064516129033,0.45161290322580644,0.11163883231397634,False,9,15,LOW,noticeable off-hours activity (0.45),T1078: Valid Accounts
-user_099,249,18,127,0.07228915662650602,0.5100401606425703,0.208745706817824,False,18,15,LOW,noticeable off-hours activity (0.51),T1078: Valid Accounts
-user_133,155,11,66,0.07096774193548387,0.4258064516129032,0.32401254657959117,False,11,15,LOW,noticeable off-hours activity (0.43),T1078: Valid Accounts
-user_149,113,8,51,0.07079646017699115,0.45132743362831856,0.18850881681500362,False,8,15,LOW,noticeable off-hours activity (0.45),T1078: Valid Accounts
-user_092,128,9,57,0.0703125,0.4453125,0.13200457544667252,False,9,15,LOW,noticeable off-hours activity (0.45),T1078: Valid Accounts
-user_081,131,9,65,0.06870229007633588,0.4961832061068702,0.08952744159839358,False,9,15,LOW,noticeable off-hours activity (0.50),T1078: Valid Accounts
-user_065,137,9,71,0.06569343065693431,0.5182481751824818,0.15908763017825192,False,9,15,LOW,noticeable off-hours activity (0.52),T1078: Valid Accounts
-user_103,96,6,53,0.0625,0.5520833333333334,0.2890767161312278,False,6,15,LOW,noticeable off-hours activity (0.55),T1078: Valid Accounts
-user_041,139,8,68,0.05755395683453238,0.4892086330935252,0.18150251825000405,False,8,15,LOW,noticeable off-hours activity (0.49),T1078: Valid Accounts
-user_134,168,8,79,0.047619047619047616,0.47023809523809523,0.3166998795404205,False,8,15,LOW,noticeable off-hours activity (0.47),T1078: Valid Accounts
+user_063,282,94,144,0.3333333333333333,0.5106382978723404,1.0,True,94,85,HIGH,high failed login ratio (0.33); noticeable off-hours activity (0.51); ML anomaly flagged user (anomaly_score=1.00),"T1078: Valid Accounts, T1110: Brute Force"
+user_007,258,82,129,0.3178294573643411,0.5,0.7535618257254303,True,82,85,HIGH,high failed login ratio (0.32); noticeable off-hours activity (0.50); ML anomaly flagged user (anomaly_score=0.75),"T1078: Valid Accounts, T1110: Brute Force"
+user_096,99,23,61,0.23232323232323232,0.6161616161616161,0.6454650981757692,True,23,80,HIGH,elevated failed login ratio (0.23); heavy off-hours activity (0.62); ML anomaly flagged user (anomaly_score=0.65),"T1078: Valid Accounts, T1110: Brute Force"
+user_023,277,83,125,0.2996389891696751,0.45126353790613716,0.7512453615764006,True,83,65,MEDIUM,elevated failed login ratio (0.30); noticeable off-hours activity (0.45); ML anomaly flagged user (anomaly_score=0.75),"T1078: Valid Accounts, T1110: Brute Force"
+user_027,119,34,58,0.2857142857142857,0.48739495798319327,0.5070600272267153,True,34,65,MEDIUM,elevated failed login ratio (0.29); noticeable off-hours activity (0.49); ML anomaly flagged user (anomaly_score=0.51),"T1078: Valid Accounts, T1110: Brute Force"
+user_140,145,41,76,0.2827586206896552,0.5241379310344828,0.6170136121805325,True,41,65,MEDIUM,elevated failed login ratio (0.28); noticeable off-hours activity (0.52); ML anomaly flagged user (anomaly_score=0.62),"T1078: Valid Accounts, T1110: Brute Force"
+user_036,97,27,53,0.27835051546391754,0.5463917525773195,0.5439559534864686,True,27,65,MEDIUM,elevated failed login ratio (0.28); noticeable off-hours activity (0.55); ML anomaly flagged user (anomaly_score=0.54),"T1078: Valid Accounts, T1110: Brute Force"
+user_029,277,77,122,0.2779783393501805,0.4404332129963899,0.7691813981186753,True,77,65,MEDIUM,elevated failed login ratio (0.28); noticeable off-hours activity (0.44); ML anomaly flagged user (anomaly_score=0.77),"T1078: Valid Accounts, T1110: Brute Force"
+user_109,252,66,115,0.2619047619047619,0.45634920634920634,0.6982259970926216,True,66,65,MEDIUM,elevated failed login ratio (0.26); noticeable off-hours activity (0.46); ML anomaly flagged user (anomaly_score=0.70),"T1078: Valid Accounts, T1110: Brute Force"
+user_071,256,64,129,0.25,0.50390625,0.5801577647935873,True,64,65,MEDIUM,elevated failed login ratio (0.25); noticeable off-hours activity (0.50); ML anomaly flagged user (anomaly_score=0.58),"T1078: Valid Accounts, T1110: Brute Force"
+user_061,71,11,41,0.15492957746478872,0.5774647887323944,0.5008407846489414,True,11,65,MEDIUM,elevated failed login ratio (0.15); noticeable off-hours activity (0.58); ML anomaly flagged user (anomaly_score=0.50),"T1078: Valid Accounts, T1110: Brute Force"
+user_132,128,22,77,0.171875,0.6015625,0.4506126388358947,False,22,60,MEDIUM,elevated failed login ratio (0.17); heavy off-hours activity (0.60),"T1078: Valid Accounts, T1110: Brute Force"
+user_035,265,31,162,0.1169811320754717,0.6113207547169811,0.793280294734156,True,31,50,MEDIUM,heavy off-hours activity (0.61); ML anomaly flagged user (anomaly_score=0.79),T1078: Valid Accounts
+user_058,128,34,66,0.265625,0.515625,0.43433340558334665,False,34,45,MEDIUM,elevated failed login ratio (0.27); noticeable off-hours activity (0.52),"T1078: Valid Accounts, T1110: Brute Force"
+user_116,121,29,58,0.2396694214876033,0.4793388429752066,0.38761556780030454,False,29,45,MEDIUM,elevated failed login ratio (0.24); noticeable off-hours activity (0.48),"T1078: Valid Accounts, T1110: Brute Force"
+user_002,111,26,58,0.23423423423423423,0.5225225225225225,0.271198332787044,False,26,45,MEDIUM,elevated failed login ratio (0.23); noticeable off-hours activity (0.52),"T1078: Valid Accounts, T1110: Brute Force"
+user_142,107,24,52,0.22429906542056074,0.48598130841121495,0.3369627068079314,False,24,45,MEDIUM,elevated failed login ratio (0.22); noticeable off-hours activity (0.49),"T1078: Valid Accounts, T1110: Brute Force"
+user_025,147,29,71,0.19727891156462585,0.48299319727891155,0.30084332996659524,False,29,45,MEDIUM,elevated failed login ratio (0.20); noticeable off-hours activity (0.48),"T1078: Valid Accounts, T1110: Brute Force"
+user_107,183,36,90,0.19672131147540983,0.4918032786885246,0.3313234384476698,False,36,45,MEDIUM,elevated failed login ratio (0.20); noticeable off-hours activity (0.49),"T1078: Valid Accounts, T1110: Brute Force"
+user_032,90,17,44,0.18888888888888888,0.4888888888888889,0.3122511104143719,False,17,45,MEDIUM,elevated failed login ratio (0.19); noticeable off-hours activity (0.49),"T1078: Valid Accounts, T1110: Brute Force"
+user_129,89,16,46,0.1797752808988764,0.5168539325842697,0.2780721413180214,False,16,45,MEDIUM,elevated failed login ratio (0.18); noticeable off-hours activity (0.52),"T1078: Valid Accounts, T1110: Brute Force"
+user_043,96,17,41,0.17708333333333334,0.4270833333333333,0.4952129187079733,False,17,45,MEDIUM,elevated failed login ratio (0.18); noticeable off-hours activity (0.43),"T1078: Valid Accounts, T1110: Brute Force"
+user_135,221,38,110,0.17194570135746606,0.497737556561086,0.33066338444289467,False,38,45,MEDIUM,elevated failed login ratio (0.17); noticeable off-hours activity (0.50),"T1078: Valid Accounts, T1110: Brute Force"
+user_014,167,28,83,0.16766467065868262,0.49700598802395207,0.18166684605124947,False,28,45,MEDIUM,elevated failed login ratio (0.17); noticeable off-hours activity (0.50),"T1078: Valid Accounts, T1110: Brute Force"
+user_124,90,15,51,0.16666666666666666,0.5666666666666667,0.2919826189697289,False,15,45,MEDIUM,elevated failed login ratio (0.17); noticeable off-hours activity (0.57),"T1078: Valid Accounts, T1110: Brute Force"
+user_066,127,21,64,0.16535433070866143,0.5039370078740157,0.14276541837843376,False,21,45,MEDIUM,elevated failed login ratio (0.17); noticeable off-hours activity (0.50),"T1078: Valid Accounts, T1110: Brute Force"
+user_054,103,17,54,0.1650485436893204,0.5242718446601942,0.1102638544778358,False,17,45,MEDIUM,elevated failed login ratio (0.17); noticeable off-hours activity (0.52),"T1078: Valid Accounts, T1110: Brute Force"
+user_087,110,18,59,0.16363636363636364,0.5363636363636364,0.13607619072589855,False,18,45,MEDIUM,elevated failed login ratio (0.16); noticeable off-hours activity (0.54),"T1078: Valid Accounts, T1110: Brute Force"
+user_053,112,18,58,0.16071428571428573,0.5178571428571429,0.0997205469839174,False,18,45,MEDIUM,elevated failed login ratio (0.16); noticeable off-hours activity (0.52),"T1078: Valid Accounts, T1110: Brute Force"
+user_050,137,22,72,0.16058394160583941,0.5255474452554745,0.150847590154595,False,22,45,MEDIUM,elevated failed login ratio (0.16); noticeable off-hours activity (0.53),"T1078: Valid Accounts, T1110: Brute Force"
+user_150,89,14,50,0.15730337078651685,0.5617977528089888,0.2557222660624766,False,14,45,MEDIUM,elevated failed login ratio (0.16); noticeable off-hours activity (0.56),"T1078: Valid Accounts, T1110: Brute Force"
+user_046,178,28,86,0.15730337078651685,0.48314606741573035,0.15547254034907038,False,28,45,MEDIUM,elevated failed login ratio (0.16); noticeable off-hours activity (0.48),"T1078: Valid Accounts, T1110: Brute Force"
+user_067,109,17,51,0.1559633027522936,0.46788990825688076,0.1645529362059342,False,17,45,MEDIUM,elevated failed login ratio (0.16); noticeable off-hours activity (0.47),"T1078: Valid Accounts, T1110: Brute Force"
+user_018,199,31,101,0.15577889447236182,0.507537688442211,0.1890223619276098,False,31,45,MEDIUM,elevated failed login ratio (0.16); noticeable off-hours activity (0.51),"T1078: Valid Accounts, T1110: Brute Force"
+user_141,257,40,126,0.1556420233463035,0.490272373540856,0.25342443049816127,False,40,45,MEDIUM,elevated failed login ratio (0.16); noticeable off-hours activity (0.49),"T1078: Valid Accounts, T1110: Brute Force"
+user_038,225,34,103,0.1511111111111111,0.4577777777777778,0.29686109561128193,False,34,45,MEDIUM,elevated failed login ratio (0.15); noticeable off-hours activity (0.46),"T1078: Valid Accounts, T1110: Brute Force"
+user_037,278,28,154,0.10071942446043165,0.5539568345323741,0.5172104378247816,True,28,35,LOW,noticeable off-hours activity (0.55); ML anomaly flagged user (anomaly_score=0.52),T1078: Valid Accounts
+user_077,70,5,35,0.07142857142857142,0.5,0.6027339797211702,True,5,35,LOW,noticeable off-hours activity (0.50); ML anomaly flagged user (anomaly_score=0.60),T1078: Valid Accounts
+user_088,80,4,39,0.05,0.4875,0.6247327206983696,True,4,35,LOW,noticeable off-hours activity (0.49); ML anomaly flagged user (anomaly_score=0.62),T1078: Valid Accounts
+user_095,80,11,48,0.1375,0.6,0.45746020991914715,False,11,30,LOW,heavy off-hours activity (0.60),T1078: Valid Accounts
+user_080,229,34,132,0.14847161572052403,0.5764192139737991,0.39761922444283077,False,34,15,LOW,noticeable off-hours activity (0.58),T1078: Valid Accounts
+user_022,265,39,125,0.1471698113207547,0.4716981132075472,0.2965423918700599,False,39,15,LOW,noticeable off-hours activity (0.47),T1078: Valid Accounts
+user_105,143,21,68,0.14685314685314685,0.4755244755244755,0.1548341370917582,False,21,15,LOW,noticeable off-hours activity (0.48),T1078: Valid Accounts
+user_145,244,34,128,0.13934426229508196,0.5245901639344263,0.1207111673087512,False,34,15,LOW,noticeable off-hours activity (0.52),T1078: Valid Accounts
+user_013,237,33,124,0.13924050632911392,0.5232067510548524,0.10807602456845378,False,33,15,LOW,noticeable off-hours activity (0.52),T1078: Valid Accounts
+user_045,237,33,123,0.13924050632911392,0.5189873417721519,0.10478528209510418,False,33,15,LOW,noticeable off-hours activity (0.52),T1078: Valid Accounts
+user_128,138,19,79,0.13768115942028986,0.572463768115942,0.2676930356294707,False,19,15,LOW,noticeable off-hours activity (0.57),T1078: Valid Accounts
+user_009,256,35,118,0.13671875,0.4609375,0.2046397990852471,False,35,15,LOW,noticeable off-hours activity (0.46),T1078: Valid Accounts
+user_115,96,13,39,0.13541666666666666,0.40625,0.48380149330429517,False,13,15,LOW,noticeable off-hours activity (0.41),T1078: Valid Accounts
+user_034,82,11,38,0.13414634146341464,0.4634146341463415,0.3325961114668833,False,11,15,LOW,noticeable off-hours activity (0.46),T1078: Valid Accounts
+user_060,280,37,138,0.13214285714285715,0.4928571428571429,0.36178312613568603,False,37,15,LOW,noticeable off-hours activity (0.49),T1078: Valid Accounts
+user_015,251,33,134,0.13147410358565736,0.5338645418326693,0.17375312404426194,False,33,15,LOW,noticeable off-hours activity (0.53),T1078: Valid Accounts
+user_017,244,32,118,0.13114754098360656,0.48360655737704916,0.0989911087302534,False,32,15,LOW,noticeable off-hours activity (0.48),T1078: Valid Accounts
+user_098,115,15,56,0.13043478260869565,0.48695652173913045,0.08795046869891875,False,15,15,LOW,noticeable off-hours activity (0.49),T1078: Valid Accounts
+user_064,246,32,114,0.13008130081300814,0.4634146341463415,0.16567073690222067,False,32,15,LOW,noticeable off-hours activity (0.46),T1078: Valid Accounts
+user_089,231,30,110,0.12987012987012986,0.47619047619047616,0.1319345675833486,False,30,15,LOW,noticeable off-hours activity (0.48),T1078: Valid Accounts
+user_051,108,14,54,0.12962962962962962,0.5,0.075728087950835,False,14,15,LOW,noticeable off-hours activity (0.50),T1078: Valid Accounts
+user_019,171,22,94,0.1286549707602339,0.5497076023391813,0.14293572803633725,False,22,15,LOW,noticeable off-hours activity (0.55),T1078: Valid Accounts
+user_136,117,15,69,0.1282051282051282,0.5897435897435898,0.278885712084612,False,15,15,LOW,noticeable off-hours activity (0.59),T1078: Valid Accounts
+user_125,125,16,70,0.128,0.56,0.19541403158214543,False,16,15,LOW,noticeable off-hours activity (0.56),T1078: Valid Accounts
+user_039,141,18,64,0.1276595744680851,0.45390070921985815,0.11022333029153839,False,18,15,LOW,noticeable off-hours activity (0.45),T1078: Valid Accounts
+user_146,173,22,75,0.12716763005780346,0.43352601156069365,0.26605420881946024,False,22,15,LOW,noticeable off-hours activity (0.43),T1078: Valid Accounts
+user_004,236,30,101,0.1271186440677966,0.4279661016949153,0.3694607776509988,False,30,15,LOW,noticeable off-hours activity (0.43),T1078: Valid Accounts
+user_042,189,24,95,0.12698412698412698,0.5026455026455027,0.04778562839099605,False,24,15,LOW,noticeable off-hours activity (0.50),T1078: Valid Accounts
+user_055,150,19,76,0.12666666666666668,0.5066666666666667,0.05634360183360649,False,19,15,LOW,noticeable off-hours activity (0.51),T1078: Valid Accounts
+user_130,208,26,107,0.125,0.5144230769230769,0.05184266820265916,False,26,15,LOW,noticeable off-hours activity (0.51),T1078: Valid Accounts
+user_126,145,18,66,0.12413793103448276,0.45517241379310347,0.1199944294600731,False,18,15,LOW,noticeable off-hours activity (0.46),T1078: Valid Accounts
+user_016,210,26,111,0.12380952380952381,0.5285714285714286,0.06275530870565334,False,26,15,LOW,noticeable off-hours activity (0.53),T1078: Valid Accounts
+user_052,138,17,64,0.12318840579710146,0.463768115942029,0.07023604959902102,False,17,15,LOW,noticeable off-hours activity (0.46),T1078: Valid Accounts
+user_147,188,23,93,0.12234042553191489,0.4946808510638298,0.018088591656299148,False,23,15,LOW,noticeable off-hours activity (0.49),T1078: Valid Accounts
+user_104,254,31,137,0.1220472440944882,0.5393700787401575,0.18999852653983157,False,31,15,LOW,noticeable off-hours activity (0.54),T1078: Valid Accounts
+user_120,216,26,111,0.12037037037037036,0.5138888888888888,0.04988581480888639,False,26,15,LOW,noticeable off-hours activity (0.51),T1078: Valid Accounts
+user_101,241,29,118,0.12033195020746888,0.4896265560165975,0.0717830896283109,False,29,15,LOW,noticeable off-hours activity (0.49),T1078: Valid Accounts
+user_091,167,20,85,0.11976047904191617,0.5089820359281437,0.057857698371706845,False,20,15,LOW,noticeable off-hours activity (0.51),T1078: Valid Accounts
+user_073,210,25,104,0.11904761904761904,0.49523809523809526,0.05185131189250045,False,25,15,LOW,noticeable off-hours activity (0.50),T1078: Valid Accounts
+user_005,185,22,93,0.11891891891891893,0.5027027027027027,0.0032119988988454163,False,22,15,LOW,noticeable off-hours activity (0.50),T1078: Valid Accounts
+user_057,186,22,92,0.11827956989247312,0.4946236559139785,0.0,False,22,15,LOW,noticeable off-hours activity (0.49),T1078: Valid Accounts
+user_078,110,13,57,0.11818181818181818,0.5181818181818182,0.05523314207284421,False,13,15,LOW,noticeable off-hours activity (0.52),T1078: Valid Accounts
+user_069,85,10,41,0.11764705882352941,0.4823529411764706,0.22937642521916773,False,10,15,LOW,noticeable off-hours activity (0.48),T1078: Valid Accounts
+user_131,188,22,89,0.11702127659574468,0.4734042553191489,0.06047372030687398,False,22,15,LOW,noticeable off-hours activity (0.47),T1078: Valid Accounts
+user_012,188,22,87,0.11702127659574468,0.4627659574468085,0.07132850444672037,False,22,15,LOW,noticeable off-hours activity (0.46),T1078: Valid Accounts
+user_059,242,28,132,0.11570247933884298,0.5454545454545454,0.13405249930314844,False,28,15,LOW,noticeable off-hours activity (0.55),T1078: Valid Accounts
+user_090,277,32,134,0.11552346570397112,0.48375451263537905,0.23011948824721604,False,32,15,LOW,noticeable off-hours activity (0.48),T1078: Valid Accounts
+user_148,277,32,130,0.11552346570397112,0.4693140794223827,0.23892756077333635,False,32,15,LOW,noticeable off-hours activity (0.47),T1078: Valid Accounts
+user_100,104,12,53,0.11538461538461539,0.5096153846153846,0.06593706203015577,False,12,15,LOW,noticeable off-hours activity (0.51),T1078: Valid Accounts
+user_110,165,19,78,0.11515151515151516,0.4727272727272727,0.06432747798876427,False,19,15,LOW,noticeable off-hours activity (0.47),T1078: Valid Accounts
+user_102,186,21,87,0.11290322580645161,0.46774193548387094,0.07443300301372396,False,21,15,LOW,noticeable off-hours activity (0.47),T1078: Valid Accounts
+user_033,170,19,83,0.11176470588235295,0.48823529411764705,0.0701410878781046,False,19,15,LOW,noticeable off-hours activity (0.49),T1078: Valid Accounts
+user_070,197,22,106,0.1116751269035533,0.5380710659898477,0.06372017756072913,False,22,15,LOW,noticeable off-hours activity (0.54),T1078: Valid Accounts
+user_010,72,8,40,0.1111111111111111,0.5555555555555556,0.43800553662772024,False,8,15,LOW,noticeable off-hours activity (0.56),T1078: Valid Accounts
+user_075,126,14,64,0.1111111111111111,0.5079365079365079,0.039129782509598095,False,14,15,LOW,noticeable off-hours activity (0.51),T1078: Valid Accounts
+user_030,82,9,40,0.10975609756097561,0.4878048780487805,0.234970117969557,False,9,15,LOW,noticeable off-hours activity (0.49),T1078: Valid Accounts
+user_118,247,27,127,0.10931174089068826,0.5141700404858299,0.05725079820760976,False,27,15,LOW,noticeable off-hours activity (0.51),T1078: Valid Accounts
+user_079,92,10,48,0.10869565217391304,0.5217391304347826,0.13548803538549978,False,10,15,LOW,noticeable off-hours activity (0.52),T1078: Valid Accounts
+user_011,178,19,95,0.10674157303370786,0.5337078651685393,0.07051494389885195,False,19,15,LOW,noticeable off-hours activity (0.53),T1078: Valid Accounts
+user_031,197,21,93,0.1065989847715736,0.4720812182741117,0.08730216535542676,False,21,15,LOW,noticeable off-hours activity (0.47),T1078: Valid Accounts
+user_097,201,21,89,0.1044776119402985,0.4427860696517413,0.2080091310422711,False,21,15,LOW,noticeable off-hours activity (0.44),T1078: Valid Accounts
+user_138,87,9,41,0.10344827586206896,0.47126436781609193,0.235171119909205,False,9,15,LOW,noticeable off-hours activity (0.47),T1078: Valid Accounts
+user_114,263,27,144,0.10266159695817491,0.5475285171102662,0.3143154735766167,False,27,15,LOW,noticeable off-hours activity (0.55),T1078: Valid Accounts
+user_001,78,8,38,0.10256410256410256,0.48717948717948717,0.292557783890642,False,8,15,LOW,noticeable off-hours activity (0.49),T1078: Valid Accounts
+user_084,275,28,128,0.10181818181818182,0.46545454545454545,0.21106704499812698,False,28,15,LOW,noticeable off-hours activity (0.47),T1078: Valid Accounts
+user_047,118,12,64,0.1016949152542373,0.5423728813559322,0.1481914128754038,False,12,15,LOW,noticeable off-hours activity (0.54),T1078: Valid Accounts
+user_083,197,20,108,0.10152284263959391,0.5482233502538071,0.08271267755779876,False,20,15,LOW,noticeable off-hours activity (0.55),T1078: Valid Accounts
+user_028,237,24,106,0.10126582278481013,0.4472573839662447,0.1855316924009263,False,24,15,LOW,noticeable off-hours activity (0.45),T1078: Valid Accounts
+user_003,139,14,76,0.10071942446043165,0.5467625899280576,0.13068461976186213,False,14,15,LOW,noticeable off-hours activity (0.55),T1078: Valid Accounts
+user_040,90,9,49,0.1,0.5444444444444444,0.18353381418546424,False,9,15,LOW,noticeable off-hours activity (0.54),T1078: Valid Accounts
+user_117,211,21,119,0.0995260663507109,0.5639810426540285,0.23090560475653912,False,21,15,LOW,noticeable off-hours activity (0.56),T1078: Valid Accounts
+user_111,266,26,125,0.09774436090225563,0.4699248120300752,0.1812613255018637,False,26,15,LOW,noticeable off-hours activity (0.47),T1078: Valid Accounts
+user_072,103,10,58,0.0970873786407767,0.5631067961165048,0.16884128343513743,False,10,15,LOW,noticeable off-hours activity (0.56),T1078: Valid Accounts
+user_049,227,22,118,0.09691629955947137,0.5198237885462555,0.030896913493737285,False,22,15,LOW,noticeable off-hours activity (0.52),T1078: Valid Accounts
+user_137,207,20,108,0.0966183574879227,0.5217391304347826,0.043273243899601736,False,20,15,LOW,noticeable off-hours activity (0.52),T1078: Valid Accounts
+user_068,145,14,76,0.09655172413793103,0.5241379310344828,0.07459400245603261,False,14,15,LOW,noticeable off-hours activity (0.52),T1078: Valid Accounts
+user_144,178,17,92,0.09550561797752809,0.5168539325842697,0.04583947985715596,False,17,15,LOW,noticeable off-hours activity (0.52),T1078: Valid Accounts
+user_119,182,17,91,0.09340659340659341,0.5,0.05211730224236395,False,17,15,LOW,noticeable off-hours activity (0.50),T1078: Valid Accounts
+user_085,193,18,104,0.09326424870466321,0.538860103626943,0.08543663773970393,False,18,15,LOW,noticeable off-hours activity (0.54),T1078: Valid Accounts
+user_127,86,8,50,0.09302325581395349,0.5813953488372093,0.362654648879196,False,8,15,LOW,noticeable off-hours activity (0.58),T1078: Valid Accounts
+user_008,108,10,49,0.09259259259259259,0.4537037037037037,0.15862219450951406,False,10,15,LOW,noticeable off-hours activity (0.45),T1078: Valid Accounts
+user_113,227,21,109,0.09251101321585903,0.4801762114537445,0.06196007648530391,False,21,15,LOW,noticeable off-hours activity (0.48),T1078: Valid Accounts
+user_108,249,23,120,0.09236947791164658,0.4819277108433735,0.09753270021067485,False,23,15,LOW,noticeable off-hours activity (0.48),T1078: Valid Accounts
+user_006,195,18,108,0.09230769230769231,0.5538461538461539,0.1487419360267587,False,18,15,LOW,noticeable off-hours activity (0.55),T1078: Valid Accounts
+user_143,254,23,130,0.09055118110236221,0.5118110236220472,0.1186254313268866,False,23,15,LOW,noticeable off-hours activity (0.51),T1078: Valid Accounts
+user_020,233,21,118,0.09012875536480687,0.5064377682403434,0.04715749008900853,False,21,15,LOW,noticeable off-hours activity (0.51),T1078: Valid Accounts
+user_026,258,23,119,0.08914728682170543,0.46124031007751937,0.19018721415957351,False,23,15,LOW,noticeable off-hours activity (0.46),T1078: Valid Accounts
+user_024,272,24,138,0.08823529411764706,0.5073529411764706,0.2331277768990144,False,24,15,LOW,noticeable off-hours activity (0.51),T1078: Valid Accounts
+user_122,228,20,111,0.08771929824561403,0.4868421052631579,0.06733902886157661,False,20,15,LOW,noticeable off-hours activity (0.49),T1078: Valid Accounts
+user_044,105,9,49,0.08571428571428572,0.4666666666666667,0.1616816791987134,False,9,15,LOW,noticeable off-hours activity (0.47),T1078: Valid Accounts
+user_062,152,13,80,0.08552631578947369,0.5263157894736842,0.148964358112575,False,13,15,LOW,noticeable off-hours activity (0.53),T1078: Valid Accounts
+user_121,234,20,112,0.08547008547008547,0.47863247863247865,0.1090640426187679,False,20,15,LOW,noticeable off-hours activity (0.48),T1078: Valid Accounts
+user_093,230,19,117,0.08260869565217391,0.508695652173913,0.08559718014254142,False,19,15,LOW,noticeable off-hours activity (0.51),T1078: Valid Accounts
+user_106,109,9,63,0.08256880733944955,0.5779816513761468,0.27935923977303645,False,9,15,LOW,noticeable off-hours activity (0.58),T1078: Valid Accounts
+user_074,194,16,101,0.08247422680412371,0.520618556701031,0.13768622404385766,False,16,15,LOW,noticeable off-hours activity (0.52),T1078: Valid Accounts
+user_086,245,20,127,0.08163265306122448,0.5183673469387755,0.11153625016470683,False,20,15,LOW,noticeable off-hours activity (0.52),T1078: Valid Accounts
+user_112,248,20,122,0.08064516129032258,0.49193548387096775,0.11487410060458773,False,20,15,LOW,noticeable off-hours activity (0.49),T1078: Valid Accounts
+user_076,124,10,57,0.08064516129032258,0.4596774193548387,0.10904786404313208,False,10,15,LOW,noticeable off-hours activity (0.46),T1078: Valid Accounts
+user_048,129,10,53,0.07751937984496124,0.4108527131782946,0.314155800513586,False,10,15,LOW,noticeable off-hours activity (0.41),T1078: Valid Accounts
+user_094,272,21,132,0.07720588235294118,0.4852941176470588,0.25277271495756504,False,21,15,LOW,noticeable off-hours activity (0.49),T1078: Valid Accounts
+user_021,157,12,76,0.07643312101910828,0.4840764331210191,0.1616900192541369,False,12,15,LOW,noticeable off-hours activity (0.48),T1078: Valid Accounts
+user_123,184,14,93,0.07608695652173914,0.5054347826086957,0.1431604098482439,False,14,15,LOW,noticeable off-hours activity (0.51),T1078: Valid Accounts
+user_133,155,11,66,0.07096774193548387,0.4258064516129032,0.3394417777994003,False,11,15,LOW,noticeable off-hours activity (0.43),T1078: Valid Accounts
+user_149,113,8,53,0.07079646017699115,0.4690265486725664,0.14721852916040856,False,8,15,LOW,noticeable off-hours activity (0.47),T1078: Valid Accounts
+user_056,99,7,55,0.0707070707070707,0.5555555555555556,0.2643435313078519,False,7,15,LOW,noticeable off-hours activity (0.56),T1078: Valid Accounts
+user_092,128,9,56,0.0703125,0.4375,0.22240576985715466,False,9,15,LOW,noticeable off-hours activity (0.44),T1078: Valid Accounts
+user_082,114,8,58,0.07017543859649122,0.5087719298245614,0.11091331135539069,False,8,15,LOW,noticeable off-hours activity (0.51),T1078: Valid Accounts
+user_099,249,17,130,0.06827309236947791,0.5220883534136547,0.2724318711159064,False,17,15,LOW,noticeable off-hours activity (0.52),T1078: Valid Accounts
+user_103,96,6,51,0.0625,0.53125,0.3140369163593605,False,6,15,LOW,noticeable off-hours activity (0.53),T1078: Valid Accounts
+user_081,131,8,62,0.061068702290076333,0.4732824427480916,0.18559074368030695,False,8,15,LOW,noticeable off-hours activity (0.47),T1078: Valid Accounts
+user_065,137,8,69,0.058394160583941604,0.5036496350364964,0.21844797095991003,False,8,15,LOW,noticeable off-hours activity (0.50),T1078: Valid Accounts
+user_041,139,8,67,0.05755395683453238,0.48201438848920863,0.20387161471213316,False,8,15,LOW,noticeable off-hours activity (0.48),T1078: Valid Accounts
+user_134,168,8,78,0.047619047619047616,0.4642857142857143,0.35290745643175947,False,8,15,LOW,noticeable off-hours activity (0.46),T1078: Valid Accounts
