@@ -39,16 +39,17 @@ The system focuses on identifying **identity misuse signals**, including:
 
 ## 🏗️ Architecture Overview
 
+```text
 Auth Log Generation
-↓
+        ↓
 Feature Engineering (per user)
-↓
+        ↓
 Unsupervised ML (Isolation Forest)
-↓
+        ↓
 Rule-Based Signals
-↓
+        ↓
 Risk Scoring + MITRE ATT&CK Mapping
-↓
+        ↓
 SOC-Ready Alerts
 
 ---
@@ -58,21 +59,21 @@ SOC-Ready Alerts
 ### 1️⃣ Authentication Log Simulation
 **File:** `src/generate_auth_logs.py`
 
-- Generates realistic identity telemetry:
-  - 150 users over 7 days
-  - Success and failure events
-  - Business hours vs off-hours
+- Generates realistic authentication telemetry:
+  - ~150 users over multiple days
+  - Successful and failed login attempts
+  - Business-hours vs off-hours activity
   - Multiple IPs, devices, and geolocations
-- Injects a small **high-risk user cohort** with elevated failure and anomaly rates
+- Injects a small **high-risk user cohort** with elevated failure rates
 
-This avoids toy datasets and mirrors **real SOC ingestion challenges**.
+This simulates real-world SOC authentication noise instead of toy datasets.
 
 ---
 
 ### 2️⃣ User-Level Behavioral Feature Engineering
 **File:** `src/features.py`
 
-Aggregates raw logs into **per-user behavior profiles**, including:
+Transforms raw logs into **per-user behavioral features**, including:
 
 - `total_logins`
 - `failed_login_ratio`
@@ -81,46 +82,42 @@ Aggregates raw logs into **per-user behavior profiles**, including:
 - `distinct_geos`
 - `distinct_devices`
 
-Features are intentionally simple, interpretable, and extensible — matching how
-security detections are built in practice.
+Features are intentionally **simple, explainable, and SOC-aligned**.
 
 ---
 
 ### 3️⃣ Unsupervised ML Anomaly Detection
 **File:** `src/ml_anomaly.py`
 
-- Uses **Isolation Forest** to model normal user behavior
-- No labels required (realistic SOC constraint)
+- Uses **Isolation Forest** to model baseline user behavior
+- Requires **no labeled data**
 - Produces:
-  - `anomaly_score` (0–1, higher = more anomalous)
-  - `anomaly_flag` (boolean outlier indicator)
+  - `anomaly_score` (continuous risk indicator)
+  - `anomaly_flag` (outlier classification)
 
-ML is used to **rank behavioral risk**, not blindly classify users.
+ML is used to **rank behavioral risk**, not replace detections.
 
 ---
 
 ### 4️⃣ Rule + ML Fusion into Risk-Scored Alerts
 **File:** `src/detections.py`
 
-Combines **deterministic security rules** with ML output:
+Combines **security rules** with ML output:
 
 **Rule Signals**
 - High failure ratio → **MITRE T1110 (Brute Force)**
-- Elevated off-hours usage → **MITRE T1078 (Valid Accounts)**
-- Low volume with multiple failures → early probing or credential misuse
+- Off-hours usage → **MITRE T1078 (Valid Accounts)**
 
 **ML Signal**
-- Increases risk when:
-  - `anomaly_flag == True`
-  - `anomaly_score` exceeds learned baseline
+- Increases risk when anomaly scores exceed baseline
 
 **Final Output (per user)**
 - `risk_score` (0–100)
 - `severity` (`LOW`, `MEDIUM`, `HIGH`)
-- `reason` (human-readable justification)
+- `reason` (human-readable explanation)
 - `mitre_technique` (ATT&CK mapping)
 
-This mirrors how **SOC detections must be explainable and actionable**.
+This mirrors how **SOC alerts must be actionable and explainable**.
 
 ---
 
@@ -128,46 +125,44 @@ This mirrors how **SOC detections must be explainable and actionable**.
 **File:** `src/pipeline.py`
 
 Runs the entire workflow in sequence:
-1. Generate logs
-2. Build features
-3. Compute anomaly scores
-4. Produce risk-scored alerts
+1. Generate logs  
+2. Build features  
+3. Compute anomaly scores  
+4. Produce risk-scored alerts  
 
 Designed for repeatability and automation.
 
 ---
 
 ## ▶️ How to Run
-
-### Environment Setup
-
-```bash
+```bash  
 conda create -n sec-ml python=3.11 -y
 conda activate sec-ml
 pip install -r REQUIREMENTS.TXT
 
 python src/pipeline.py
+```
+
+## 📊 Sample Output
+
+Below is an example of SOC-ready alerts produced by the pipeline (`src/pipeline.py`):
+
+| user_id | risk_score | severity | reason | mitre_technique |
+|-------|------------|----------|--------|-----------------|
+| user_12 | 92 | HIGH | High authentication failure rate combined with anomalous login behavior | T1110 (Brute Force) |
+| user_07 | 68 | MEDIUM | Off-hours authentication activity deviates from historical baseline | T1078 (Valid Accounts) |
+| user_21 | 35 | LOW | Slight deviation in login frequency, below alert threshold | None |
+
+Each alert includes:
+- A normalized **risk_score (0–100)**
+- Human-readable **reason** for analyst triage
+- Mapped **MITRE ATT&CK technique** when applicable
+
+This output format mirrors how alerts are consumed by SOC analysts and SIEM platforms.
 
 
-## Why This Matters (Security Perspective)
 
-Demonstrates detection engineering, not just ML modeling
 
-Shows how ML can reduce false positives rather than inflate alerts
 
-Emphasizes interpretability, a critical SOC requirement
 
-Aligns detections to MITRE ATT&CK, enabling threat-informed defense
-
-## Future Enhancements
-
-Time-series features (burstiness, session duration)
-
-Per-role or peer-group baselining
-
-Integration with SIEM-style ingestion formats
-
-Alert suppression and decay logic
-
-Visualization of anomaly score distributions.
 
