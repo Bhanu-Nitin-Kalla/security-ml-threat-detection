@@ -4,7 +4,7 @@ generate_auth_logs.py
 Generate synthetic authentication logs for our security-ml-threat-detection project.
 
 This version creates MANY users and MANY events so downstream detections
-look realistic, like VPN / SSO logs in a real environment.
+look realistic, like VPN / SSO / AD logs in a real environment.
 """
 
 from datetime import datetime, timedelta
@@ -30,6 +30,9 @@ def generate_auth_logs(
 
     events = []
 
+    # -------------------------------
+    # Normal per-user behaviour
+    # -------------------------------
     for user in users:
         # baseline success prob
         base_success_prob = 0.93
@@ -85,6 +88,50 @@ def generate_auth_logs(
                     "off_hours": off_hours,
                 }
             )
+
+    # -----------------------------------
+    # Inject attacker IPs (password spray)
+    # -----------------------------------
+    attacker_ips = [
+        "203.0.113.10",  # TEST-NET-3 ranges (bogus public IPs)
+        "203.0.113.11",
+    ]
+
+    # choose a pool of target users
+    target_users = random.sample(users, k=min(40, len(users)))
+
+    for attacker_ip in attacker_ips:
+        # for each attacker IP, spray a subset of users
+        sprayed_users = random.sample(target_users, k=min(25, len(target_users)))
+        for user in sprayed_users:
+            # simulate several mostly-failed attempts per user
+            attempts = random.randint(3, 8)
+            for _ in range(attempts):
+                delta_seconds = random.randint(0, int((now - start).total_seconds()))
+                ts = start + timedelta(seconds=delta_seconds)
+
+                off_hours = ts.hour < 7 or ts.hour >= 19
+                geo = random.choice(["US", "IN", "GB", "DE", "CA", "SG", "AU"])
+                auth_system = random.choice(["vpn", "okta", "ad"])
+
+                # attacker usually fails (password spray)
+                success_prob = 0.05
+                success = random.random() < success_prob
+
+                events.append(
+                    {
+                        "timestamp": ts,
+                        "user": user,
+                        "src_ip": attacker_ip,
+                        "geo": geo,
+                        "device_id": f"attacker_dev_{attacker_ip.replace('.', '_')}",
+                        "auth_system": auth_system,
+                        "event_type": "login",
+                        "success": success,
+                        "is_new_device": True,
+                        "off_hours": off_hours,
+                    }
+                )
 
     df = pd.DataFrame(events).sort_values(["user", "timestamp"]).reset_index(drop=True)
     return df
