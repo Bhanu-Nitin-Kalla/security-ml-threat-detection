@@ -79,3 +79,7 @@ conda activate sec-ml
 
 # Install dependencies
 pip install -r REQUIREMENTS.TXT
+
+## Project Status
+Initial ML-based security threat detection implementation.
+
